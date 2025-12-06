@@ -1,4 +1,7 @@
-# Career Copilot
+# AssistEdge
+<img width="1080" height="564" alt="image" src="https://github.com/user-attachments/assets/d960ccf5-24c5-4f18-8ed7-5e5db93daf80" />
+
+
 
 A comprehensive career preparation platform featuring AI-powered interview preparation, resume building, document verification, and secure face-based authentication.
 
@@ -33,12 +36,6 @@ npm install
 npm run dev
 ```
 
-## AWS Integration Documentation
-
-This application requires AWS backend services for full functionality. A comprehensive setup guide is available at:
-
-**`/aws-setup-docs`** - Visit this route in your running application to access the complete AWS Setup Documentation.
-
 ### AWS Services Required
 
 1. **Amazon Rekognition** - Face-based authentication (IndexFaces, SearchFacesByImage)
@@ -46,21 +43,6 @@ This application requires AWS backend services for full functionality. A compreh
 3. **Amazon DynamoDB** - User data storage
 4. **AWS Lambda** - Serverless functions for registration and login
 5. **Amazon API Gateway** - REST API endpoints
-
-### Documentation Contents
-
-The AWS Setup Documentation (`/aws-setup-docs`) includes:
-
-- System architecture diagrams
-- Step-by-step IAM role configuration
-- S3 bucket setup with CORS configuration
-- Rekognition collection creation
-- DynamoDB table schema
-- Lambda function code (Python) for:
-  - User registration with face indexing
-  - Face verification login
-- API Gateway endpoint configuration
-- Frontend integration service examples
 
 ## Project Structure
 
@@ -79,13 +61,12 @@ src/
 │   └── AWSSetupDocs.tsx   # AWS integration docs
 └── hooks/             # Custom React hooks
 ```
+## Team - TechZNinjas
+## Members
+- MAHEK BHATIA (Team Leader)
+- HIRDESH 
+- GAURAV SHUKLA
+- HARSH DEEP 
+- JAHANVI SRIVASTVA
 
-## Deployment
 
-Open [Lovable](https://lovable.dev/projects/8ad334ec-607d-43c5-a5cc-a750dc55efd2) and click on Share → Publish.
-
-## Custom Domain
-
-To connect a custom domain, navigate to Project > Settings > Domains in Lovable.
-
-Read more: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
